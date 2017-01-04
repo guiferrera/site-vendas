@@ -1,0 +1,97 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+header {
+    position: relative;
+}
+.sacola{
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-opcoes ul {
+    font-size: 15px;
+}
+.menu-opcoes a {
+    color: #003366;
+}
+ul li {
+    display: inline;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.sacola {
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+.item-menu {
+text-decoration: none;
+}
+.busca,
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 5px;
+}
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 1px 5px;
+}
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+.busca input {
+    vertical-align: middle;
+}
+.busca input[type=search] {
+    width: 170px;
+}
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.destaque {
+    margin-top: 10px;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.destaque {
+    margin-top: 10px;
+}
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
